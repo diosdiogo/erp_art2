@@ -1,0 +1,62 @@
+hr{
+    height: 1px !important;
+    background: black;
+}
+
+h3{
+    padding: -25px !important;
+}
+
+.table-borda{
+  width: 100%;
+  border-collapse:collapse;border-spacing:0;
+}
+
+.table-borda th {
+    border: 1px solid black;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;    
+}
+
+.table-borda td {
+    border: 1px solid black;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+}
+
+.table-produto{
+    width: 100%;
+    border-collapse:collapse;border-spacing:0;
+}
+
+.table-produto th{
+    border: 1px solid black;
+}
+
+.table-produto td {
+    border: 1px solid black;
+}
+
+.table-assiantura{
+    width: 100%;
+    border-collapse:collapse;border-spacing:0;
+}
+
+.footer {
+font-size: 12px; 
+position: fixed; 
+bottom: 0; 
+width: 100%; 
+text-align: right;
+}
+.footer .page:after{
+content: counter(page); 
+}
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}

@@ -1,0 +1,109 @@
+﻿.mobi-data-cadastro {
+    width: 130px;
+}
+
+div:-webkit-full-screen {
+    width: 100% !important;
+}
+
+div:-moz-full-screen {
+    width: 100% !important;
+}
+
+div:-ms-fullscreen {
+    width: 100% !important;
+}
+
+div:fullscreen {
+    width: 100% !important;
+}
+
+/* While in fullscreen, hide any children with class 'tohide' */
+:-webkit-full-screen .tohide {
+    display: none;
+}
+
+:-moz-full-screen .tohide {
+    display: none;
+}
+
+:-ms-fullscreen .tohide {
+    display: none;
+}
+
+:fullscreen .tohide {
+    display: none;
+}
+
+input, textarea  {
+    text-transform: uppercase;
+}
+
+body {
+}
+
+#gridtemplate th {
+    /*border: 1px solid #808080;
+    background-color: #dddddd;*/
+}
+
+#gridtemplate td {
+    /*border: 1px solid #808080!important;*/
+}
+
+#gridtemplate_wrapper {
+}
+
+.login-bg {
+    color: #fff !important;
+    background-repeat: no-repeat;
+    background-image: url(../../image/login-bg.jpg);
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.has-error .select2-selection {
+    border: 1px solid #a94442;
+}
+
+#overlay {
+    height: 100% !important;
+    width: 100% !important;
+    left: 0;
+    top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url(../../image/loading-page.gif);
+    margin: -28px 0 0 -25px;
+}

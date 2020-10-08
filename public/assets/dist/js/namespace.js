@@ -1,0 +1,1 @@
+$.namespace = function (a, b) { var e, f, c = a.split("."), d = window; e = c.length; for (var f = 0; f < e; f++) "undefined" == typeof d[c[f]] && (d[c[f]] = {}), d = d[c[f]]; return $.extend(d, $.isFunction(b) ? b() : b), d };
